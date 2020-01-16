@@ -1,8 +1,6 @@
-"""
-Programmer: PattyDaddy
-Date: 12.16.19
-Program: Guess My Number
-"""
+# Programmer: PattyDaddy
+# Date: 12.16.19
+# Program: Guess My Number
 
 myNumber = 7
 
@@ -20,11 +18,9 @@ while guess != myNumber:
 print ("\nCongrats homie, you's is right!!\n")
 
 
-"""
-Programmer: PattyDaddy
-Date: 12.19.19
-Program: 1 Through 10
-"""
+# Programmer: PattyDaddy
+# Date: 12.19.19
+# Program: 1 Through 10
 
 x = 1
 
