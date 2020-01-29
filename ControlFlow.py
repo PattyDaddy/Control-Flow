@@ -1,3 +1,4 @@
+
 # Programmer: PattyDaddy
 # Date: 12.16.19
 # Program: Guess My Number
@@ -51,6 +52,16 @@ for i in range(how_many_numbers):
 print("\nSum of your numbers is: " + str(sum))
 
 
+# Programmer: PattyDaddy
+# Date: 1.20.20
+# Program: Double For Loop
+
+for i in range(3):
+    print("Outer For Loop " + str(i))
+    for k in range(4):
+        print ("\tInner for Loop " + str(k))
+
+print("\n**********************\n")
 
 # Programmer: PattyDaddy
 # Date: 1.7.20
@@ -70,4 +81,24 @@ for i in range(how_many_tests):
 average = total / how_many_tests
 
 print("\nYour average test score is: " + str(round(average, 2)))
+
+
+
+
+
+
+print("\n**********************\n")
+
+"""
+Programmer: Patricio Ortiz
+Date: 1.23.20
+Program: While Loop nested inside of a For Loop
+"""
+
+for i in range(4):
+    print("For Loop: " + str(i))
+    x = i
+    while x >= 0:
+        print("\tWhile Loop: " + str(x))
+        x = x - 1
 
