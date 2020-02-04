@@ -32,6 +32,11 @@ def printTwoNumbers(x,y = 71):
 def printSum(x,y): ## x and y are PARAMETERS
     print(x + y)
 
+# Print Multiple Times
+def printMultipleTimes(string, times): ## ILoveComputerScience has STRING a data type
+    for i in range(times):
+        print(string)
+
 
 ## Call Functions Here...
 
@@ -42,5 +47,5 @@ def printSum(x,y): ## x and y are PARAMETERS
 # printNumber(16)
 # printTwoNumbers(23,78)
 # printTwoNumbers(45)
-printSum(1,17)
-
+# printSum(1,17)
+printMultipleTimes("ILoveComputerScience", 13)
